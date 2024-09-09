@@ -19,20 +19,20 @@ A simple client-server application using socket programming, where the server ca
 2. Compile the server and client:
 
     ```bash
-    javac Server.java
-    javac Client.java
+    javac FactorialServer.java
+    javac FactorialClient.java
     ```
 
 3. Start the server:
 
     ```bash
-    java Server
+    java FactorialServer
     ```
 
 4. In another terminal, run the client:
 
     ```bash
-    java Client
+    java FactorialClient
     ```
 
 5. Enter a number when prompted, and the factorial result will be displayed.
